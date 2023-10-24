@@ -1,0 +1,23 @@
+div, p{
+    margin: 20px;
+    padding: 20px;
+}
+
+.div1{
+    background-color: rgb(14, 58, 96);
+    color: aliceblue;
+    font-weight: bold;
+    border-left: 6px solid blue;
+}
+
+.p1{
+    background-color: rgba(212, 0, 255, 0.5);
+}
+
+.div2 {
+    background-color: hsl(120, 100%, 50%);
+    color: darkblue;
+    border-left: 6px solid green;
+    font-weight: bold;
+}
+

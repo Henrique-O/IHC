@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 CSS</title>
+
+    <style>
+        div{
+            background-color: dodgerblue;
+            color: aliceblue;
+            margin: 15px 20px 70px 80px;
+            padding: auto;
+        }
+
+        .p1{
+            background-color: darkseagreen;
+            color: black;
+            margin: 25px 15px 50px;
+            padding: 10px 20px 30px;
+        }
+        .p2{
+            background-color: gold;
+            color: black;
+            margin: 50px 25px;
+            padding: 25px 30px;
+        }
+        .p3{
+            background-color: aliceblue;
+            color: black;
+            margin: 80px;
+            padding: 50px; 
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Exemplo 10 CSS Padding</h1>
+    <div>
+        <p>A margem de um componente html é a área que fica ao redor. Após a borda do elemento html.</p>
+        <p>Podemos representar essa margem(espaçamento externo) de diversas maneiras. Por exemplo.</p>
+
+        <ul>
+            <li>padding 15px 50px 70px 150px</li>
+            <li>padding 25px 50px 60px</li>
+            <li>padding 10px 20px</li>
+            <li>padding 25px</li>
+        </ul>
+
+        <p class="p1">No exemplo acima, usamos uma forma diferente de representar a padding, pois adotamos valores se tivessemos que repressentar as 4 paddings(top, rigth, bottom, left)</p>
+        <p class="p2">No primeiro exemplo a leitura do espaçamento da padding deve ser o seguinte: 15px ao topo, 50px a direita, 70px a baixo, 150px a esquerda. Se observarmos notaremos a semelhança da disposição dos alinhamentos com o relogio, onde os espaçamentos estão dispostos no sentido horario.</p>
+        <p class="p3">Aplicando essa regra, veremos que teremos sempre 4 valores, representando o topo, direita, abaixo e esquerda. Quando qualquer um desses valores não aparecer eu posso deduzir que o valor apresentado será o espelho, ou seja, o que tiver na sua frente</p>
+    </div>
+</body>
+</html>

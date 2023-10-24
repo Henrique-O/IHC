@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3 CSS</title>
+
+    <style>
+        .seletorClass1 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-left: 5px solid red;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        .seletorClass2 {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-left: 5px solid green;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        .itemLista li::marker {
+            content: 'Item' counter(list-item) ':';
+            color: fuchsia;
+            font-weight: 800;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo 3 CSS/HTML</h1>
+    <h2>Seletores de classes</h2>
+
+    <div class="seletorClass1">
+        <p>Os seletores de classes são aqueles que podem ser aplicados a qualquer elemento html. Esses seletores são
+            abragentes e podem ser usados mais de uma vez no documento HTML
+        <p>
+        <p>A sintaxe desse seletor é : .nomeSeletor{propriedade:valor;}</p>
+        <p>Por exemplo: </p>
+    </div>
+
+    <div class="seletorClass2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est soluta, non et in saepe praesentium, unde
+            pariatur fugit, itaque eveniet? Ea dolorem labore officia iusto laboriosam odio molestiae vitae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae ad qui laborum corporis obcaecati! Minus
+            at dolorem, velit nihil eius, eos hic, excepturi nulla magni debitis ex maiores distinctio ab?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias quae, inventore id ipsum molestias
+            explicabo ex praesentium nisi ullam, nesciunt qui assumenda veritatis quos sapiente eaque eveniet vel
+            expedita!</p>
+    </div>
+
+
+
+    <div class="seletorClass1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quaerat modi non blanditiis nesciunt velit at,
+            impedit distinctio esse obcaecati nostrum laudantium, iusto suscipit expedita. Nihil a repellat repellendus
+            iure.</p>
+        <ol class="itemLista">
+            <li>Blazor</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue.js</li>
+        </ol>
+    </div>
+</body>
+
+</html>

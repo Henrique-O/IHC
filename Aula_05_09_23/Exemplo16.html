@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 16 HTML</title>
+</head>
+<body>
+    <h1>Exemplo 16 HTML</h1>
+    <form action="paginaDeDestino" method="post">
+
+        <div>
+            <label for="Nome">Nome</label>
+            <input type="text" name="txtNome" id="txtNome" placeholder="Digite um Nome">
+        </div>
+        <br>
+        <div>
+            <label for="Nome">Digite o ano de nascimento</label>
+            <input type="text" name="txtAno" id="txtAno" placeholder="Digite o ano de nascimento" required autofocus>
+        </div>
+        <br>
+
+        <div>
+            <label for="">Digite uma data anterior à 01/01/2000</label>
+            <input type="date" name="dataMaxima" id="dataMaxima" max="1999-12-31">
+        </div>
+        <br>
+        <div>
+            <label for="">Digite uma data superior à 01/01/2000</label>
+            <input type="date" name="dataMinima" id="dataMinima" min="2000-01-02">
+        </div>
+        <br>
+        <div>
+            <label for="">Digite um número de 10 à 100</label>
+            <input type="number" name="txtNumero" id="txtNumero" min=10 max=100 step="10">
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+</html>

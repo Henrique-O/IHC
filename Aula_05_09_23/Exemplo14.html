@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 14 HTML</title>
+</head>
+
+<body>
+    <h1>Exemplo 14 HTML - Elemento Inputs</h1>
+    <form action="paginaDestino.jsp" method="get">
+
+        <fieldset>
+            <legend>Exemplo 14</legend>
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" name="txtNome" id="txtNome">
+            </div>
+            <br>
+            <div>
+                <label for="">Selecione uma cor:</label>
+                <input type="color" name="txtCor" id="txtCor">
+            </div>
+            <br>
+            <div>
+                <label for="">Digite o ano do seu nascimento:</label>
+                <input type="number" name="txtAnoNascimento" id="txtAnoNascimento" required min="1900" max="2050"
+                    step="1">
+            </div>
+            <br>
+            <div>
+                <label for="">Digite o ano do seu nascimento (Usando o atributo Range):</label>
+                <input type="range" name="txtAnoNascimento1" id="txtAnoNascimento1" required min="1900" max="2050"
+                    step="1">
+            </div>
+            <br>
+            <div>
+                <label for="">Digite o horário do seu nascimento:</label>
+                <input type="time" name="txtHoraNascimento" id="txtHoraNascimento">
+            </div>
+            <br>
+            <button type="submit">Enviar</button>
+
+    </form>
+
+    </fieldset>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 - CSS/HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .div1 {
+            background-color: rgb(0, 0, 0);
+            padding-top: 32px;
+            padding-left: 24px;
+            padding-bottom: 32px;
+        }
+
+        .div1>h1 {
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .div1 > .lista{
+            font-size: 25px;
+            list-style-type: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        a:hover{
+            color: rgb(186, 187, 189);
+        }
+
+        .div2 {
+            background-color: #703152;
+            padding-top: 32px;
+            padding-left: 24px;
+            padding-bottom: 32px;
+        }
+
+        .div2 > h1{
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .div2 > .lista {
+            font-size: 25px;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Uvas para vinho branco</h1>
+        <ul class="lista">
+            <li> <a href="https://www.wine.com.br/winepedia/sommelier-wine/serie-uvas-chardonnay/">Chardonnay</a></li>
+            <li> <a href="https://www.wine.com.br/winepedia/tag/sauvignon-blanc/?gclid=Cj0KCQjwmICoBhDxARIsABXkXlL5su37JJY55fKJUfsigJKL5hZ3pB3ZwLK7mBm9oYKXSklf-c8l9Y0aAr20EALw_wcB"
+                    class="whitewine">Sauvignon Blanc</a></li>
+            <li><a href="https://blog.famigliavalduga.com.br/uva-riesling-conheca-as-caracteristicas-e-os-vinhos-que-ela-produz/">Riesling</a></li>
+        </ul>
+    </div>
+
+    <div class="div2">
+        <h1>Uvas para vinho tinto</h1>
+        <ul class="lista">
+            <li> <a href="https://content.paodeacucar.com/vinhos/tipos-de-uva-para-vinho-tinto#:~:text=A%20Cabernet%20Sauvignon%20é%2C%20muito,tintos%20em%20todo%20o%20mundo.">Cabernet Sauvignon</a></li>
+            <li> <a href="https://content.paodeacucar.com/vinhos/tipos-de-uva-para-vinho-tinto#:~:text=A%20Cabernet%20Sauvignon%20é%2C%20muito,tintos%20em%20todo%20o%20mundo.">Carménère</a></li>
+            <li><a href="https://content.paodeacucar.com/vinhos/tipos-de-uva-para-vinho-tinto#:~:text=A%20Cabernet%20Sauvignon%20é%2C%20muito,tintos%20em%20todo%20o%20mundo.">Malbec</a></li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

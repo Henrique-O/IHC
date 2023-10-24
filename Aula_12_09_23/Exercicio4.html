@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Exercicio 4</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+
+    <form action="paginaDeDestino" method="post">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            Nome: <input type="text" autofocus placeholder="Digite seu Nome">
+            <br><br>
+            Endereço: <input type="text" placeholder="Digite seu endereço">
+            <br><br>
+            Cidade: <input type="text" placeholder="Digite sua cidade">
+            <br><br>
+            Estado: <label for="Estado"></label>
+            <select name="" id="">
+                <option value="SP">SP</option>
+                <option value="DF">DF</option>
+                <option value="RJ">RJ</option>
+                <option value="MG">MG</option>
+            </select>
+        </fieldset>
+
+        <br><br><br>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+
+            Natureza do cargo
+            <br>
+            <input type="radio" name="geerencia" id="gerencia" value="1"> Gerência
+            <input type="radio" name="financeiro" id="financeiro" value="2"> Financeiro
+            <input type="radio" name="recepcao" id="recepcao" value="3"> Recepção
+            <input type="radio" name="administrativo" id="administrativo" value="4"> Administrativo
+            <input type="radio" name="juridico" id="juridico" value="5"> Juridico
+
+            <br><br>
+
+            Área de interesse
+            <br>
+            <input type="checkbox" name="computacao" id="computacao" value="1"> Computação
+            <input type="checkbox" name="biologia" id="biologia" value="2"> Biologia
+            <input type="checkbox" name="meio_ambiente" id="meio_ambiente" value="3"> Meio Ambiente
+            <input type="checkbox" name="engenharia" id="engenharia" value="4"> Engenharia
+            <input type="checkbox" name="historia" id="historia" value="5"> História
+
+            <br><br>
+            Mini-curriculo:
+            <br>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 - HTML</title>
+</head>
+
+<body>
+    <h1>Exemplo 12 HTML - Web semântica</h1>
+    <p>Os elementos de formulários são repesentados pela tag form. Todos elementos que estiverem dentro dessa tag serão
+        submetidos ao servidor</p>
+    <p>Os formelários são a principal forma de interação aplicados em uma aplicação WEB e utilizam do protocolo http
+        para promover a comunicação entre o cliente e o servidor. Exemplo</p>
+
+        <!-- Post é melhor, não mostra o que não deve, mas mesmo assim fazendo certas coisas dá ss pra ver oq não deve-->
+    <form action="paginaDestino.aspx" method="post">
+
+        <div>
+            <h2>Formulário de Login usando o método POST</h2>
+            <p>O método post é utilizado para enviar dados de uma página para outra, via corpo de página. Esse método é mais seguro que o método GET pois ele não mostra os dados enviados na url. Todos os dados são enviados no corpo da página, snedo o mais aconselhado quando tivermos que enviar dados de uma página para outra.</p>
+        </div>
+
+        <h2>Login</h2>
+
+        <div>
+            <label for="">Usuário</label>
+            <br>
+            <input type="text" name="txtUsuarioName" id="txtUsuario">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">Senha</label>
+            <br>
+            <input type="password" name="txtSenhaName" id="txtSenha">
+        </div>
+        <br>
+        <button type="submit">Acessar</button>
+    </form>
+
+
+</body>
+
+</html>

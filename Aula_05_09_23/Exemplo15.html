@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 15 HTML</title>
+</head>
+<body>
+    <h1> Exemplo 15 HTML - Elementos Input</h1>
+    <form action="paginaDestino.html" method="get">
+
+        <fieldset>
+            <legend>
+                Cadastro de Preferências
+            </legend>
+
+            <div>
+                <label for="">Nome</label>
+                <input type="text" name="txtName" id="txtName">
+            </div>
+            <br>
+            <div>
+                <label for="">e-mail</label>
+                <input type="email" name="txtEmail" id="Email">
+            </div>
+            <br>
+            <div>
+                <label for="">Selecione um ou mais gêneros de filmes</label>
+                <br>
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="1">Romance
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="2">Ficção
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="3">Terror
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="4">Comédia
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="5">Ação
+                <input type="checkbox" name="chkGenero" id="chkGenero" value="6">Épico
+            </div>
+            <br>
+            <div>
+                <label for="">Selecione um destino favorito:</label>
+                <input type="radio" name="rdDestino" id="rdDestino" value="1">Cachoeira
+                <br>
+                <input type="radio" name="rdDestino" id="rdDestino" value="2">Praia
+                <br>
+                <input type="radio" name="rdDestino" id="rdDestino" value="3">Trilha
+                <br>
+                <input type="radio" name="rdDestino" id="rdDestino" value="4">Rural
+                <br>
+            </div><br>
+
+            <div>
+                <label for="">Selecione uma região favorita:</label>
+                <select name="cboRegiao" id="cboRegiao">
+                    <option value="1">Centro Oeste</option>
+                    <option value="2">Nordeste</option>
+                    <option value="3">Sul</option>
+                    <option value="4">Sudoeste</option>
+                    <option value="1">Centro Oeste</option>
+                    <option value="5">Outro...</option>
+                </select>
+        </fieldset>
+
+
+
+
+
+    </form>
+</body>
+</html>
