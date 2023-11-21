@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Exemplo 20 CSS Grid Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            grid-gap: 10px;
+            grid-template-areas: /* 6 colunas e 3 linhas */
+                "header header header header header header"
+                "menu main main main right right"
+                "menu footer footer footer footer footer";
+                background-color: #eee;
+                grid-template-rows: 10vh 75vh 5vh;
+                height: 90vh;
+        }
+
+        .item {
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: blue;
+        }
+        .menu {
+            grid-area: menu;
+            background-color: mediumspringgreen;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: orangered;
+        }
+
+        .right {
+            grid-area: right;
+            background-color: darksalmon;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: olivedrab;
+            grid-template-rows: minmax(100px, 200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">header</div>
+        <div class="item menu">Menu</div>
+        <div class="item main">Main</div>
+        <div class="item right">Rigth</div>
+        <div class="item footer">footer</div>
+    </div>
+</body>
+</html>

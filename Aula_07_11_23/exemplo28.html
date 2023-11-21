@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exemplo 5 Bootstrap</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(36, 36, 36);
+            color: white;
+        }
+
+        .painel {
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 24px;
+            padding: 24px;
+        }
+
+        .table {
+            color: white;
+        }
+
+        .btn-primary {
+            border: 1px solid transparent;
+            color: rgb(36, 36, 36);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .btn-primary:hover {
+            border: 1px solid transparent;
+            color: rgb(36, 36, 36);
+            background-color: rgb(204, 204, 204);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-sm pt-4">
+        <h1>Exemplo 7 - Bootstrap Grid</h1>
+        <div class="painel">
+            <h3>Cadastro de gerente</h3>
+            <div class="row">
+                <div class="col-6 pt-4">
+                    <label for="">Email</label>
+                    <input type="text" name="" id="txtEmail" class="form-control">
+                </div>
+                <div class="col-6 pt-4">
+                    <label for="">Password</label>
+                    <input type="text" name="" id="txtPassword" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pt-4">
+                    <label for="">Address</label>
+                    <input type="text" name="" id="txtAddress" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pt-4">
+                    <label for="">Address2</label>
+                    <input type="text" name="" id="txtAddress2" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 pt-4">
+                    <label for="">City</label>
+                    <input type="text" name="" id="txtCity" class="form-control">
+                </div>
+                <div class="col-4 pt-4">
+                    <label for="">State</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-3 pt-4">
+                    <label for="">Zip</label>
+                    <input type="text" name="" id="txtZip" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-check pt-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                </label>
+            </div>
+
+            <div class="form-group pt-4">
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

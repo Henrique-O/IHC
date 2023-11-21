@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exemplo 5 Bootstrap</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(36, 36, 36);
+            color: white;
+        }
+
+        .painel {
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 24px;
+            padding: 24px;
+        }
+
+        .table {
+            color: white;
+        }
+
+        .btn-primary {
+            border: 1px solid transparent;
+            color: rgb(36, 36, 36);;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .btn-primary:hover{
+            border: 1px solid transparent;
+            color: rgb(36, 36, 36);;
+            background-color: rgb(204, 204, 204);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-sm pt-4">
+        <h1>Exemplo 5 - Bootstrap Grid</h1>
+        <div class="painel">
+            <h3>Cadastro de gerente</h3>
+            <div class="form-group">
+                <label for="">Nome</label>
+                <input type="text" name="" id="txtNome" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label for="">CPF</label>
+                    <input type="text" name="" id="txtCPF" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="">Salário</label>
+                    <input type="text" name="" id="txtSalario" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="">Senha</label>
+                    <input type="text" name="" id="txtSenha" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">Dados cadastrados</label>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>CPF</th>
+                                <th>Nome</th>
+                                <th>Salário</th>
+                            <tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12345678900</td>
+                                <td>Henrique Oliveira</td>
+                                <td>R$ 10000,00</td>
+                            </tr>
+                            <tr>
+                                <td>98765432100</td>
+                                <td>Murilo Siqueira</td>
+                                <td>R$ 9000,00</td>
+                            </tr>
+                            <tr>
+                                <td>65748392011</td>
+                                <td>João Vitor Toledo</td>
+                                <td>R$ 9000,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-primary form-control">Cadastrar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
